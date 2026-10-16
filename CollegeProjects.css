@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+.card {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    width: auto;
+}
+
+#prompt{
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+#seasonal {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+
+main {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    box-sizing: 0px;
+}
+
+#title {
+
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.class a{
+    padding: 100px;
+    color: white;
+}
+
+textarea{
+    width: 700px;
+    max-width: 600px;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+body.seasonal-theme {
+    background-color: rgb(34, 2, 34);
+    color: white;
+}
+
+body.seasonal-theme .card {
+    background-color: rgba(211, 144, 20, 0.753);
+}
+
+body.seasonal-theme main {
+    background-color: rgb(34, 2, 34);
+    color: white;
+}
+
+body.seasonal-theme .image {
+    background-color: rgb(34, 2, 34);
+    color: white;
+}
+
+body.seasonal-theme textarea {
+    background-color: #f3eaf5;
+    color: #222;
+}
+
+body.seasonal-theme #title {
+    color: white;
+}
