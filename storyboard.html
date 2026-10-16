@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Organizer</title>
 
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="storyboard.css">
 
 </head>
 <body>
@@ -20,13 +20,19 @@
         <section>
             <form class="class">
                 <a class="class a" href="Saveprojects.html">Saved projects</a>
-                <h3>Insert images here:</h3>
+                <br></br>
             <div class="image">
-                <img src="your-image.jpg" alt="Insert image here">
+                <form action="/upload-endpoint" method="POST" enctype="multipart/form-data">
+                <label for="imageUpload">Insert Picture:</label>
+                <br></br>
+                <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+                <br></br>
+                <button type="submit">Upload</button>
+            </form>
             </div>
                 <br><br>
                 <h3>Insert text here:</h3>
-                <input type="text" placeholder="Insert text">
+                <textarea placeholder="Write story  here:"></textarea>
                 <br><br>
                 <button type="submit">save</button>
                 <br></br>
