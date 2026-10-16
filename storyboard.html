@@ -10,16 +10,23 @@
 </head>
 <body>
     <header class="card">
-        <h1 class="title">Story planner</h1>
+        <h1 class="title">Project Organizer</h1>
+        <br></br>
+        <nav class="navbar">
+        <ul class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="storyboard.html">Storyboard</a>
+            <a href="CollegeProjects.html">College Projects</a>
+        </ul>
+    </nav>
     </header>
-    <section>
-        <button id="Seasonal-on">Seasonal</button>;
-    </section>
-    <main>
-            
+    <div class="button-container">
+        <button id="seasonal">Seasonal</button>
+    </div>
+    <h1 id="title">Storyboard</h1>
+    <main>   
         <section>
             <form class="class">
-                <a class="class a" href="Saveprojects.html">Saved projects</a>
                 <br></br>
             <div class="image">
                 <form action="/upload-endpoint" method="POST" enctype="multipart/form-data">
@@ -40,6 +47,6 @@
         </section>
     </main>
 
-    <script src="Login.js"></script>
+    <script src="SeasonalButton.js"></script>
 </body>
 </html>
