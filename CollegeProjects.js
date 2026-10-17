@@ -12,3 +12,4 @@ promptForm.addEventListener("submit", function(event) {
         promptInput.value = "";
     }
 });
+
