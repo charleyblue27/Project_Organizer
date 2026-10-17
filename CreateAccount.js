@@ -1,5 +1,5 @@
 const correctName = "Jack";
-const correctUsername = "Jsimon";
+const correctUsername = "J";
 const correctPassword = "dog";
 
 const createAccount = document.querySelector(".class");
