@@ -1,5 +1,5 @@
 // create header tag
-const pageHead = document.createElement("head");
+const pageHead = document.createElement("header");
 pageHead.classList.add("card");
 
 //create hero
