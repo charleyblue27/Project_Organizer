@@ -3,6 +3,8 @@
 Project title: 
   Project Organizer
 
+Github link: https://charleyblue27.github.io/Project_Organizer/
+
 Team members: 
   Charley Madlock, Jack Simon
 
