@@ -1,15 +1,57 @@
 body{
     margin: 0px;
 }
+
+.mainTitle {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
 .card {
     background-color: lightblue;
     padding: 20px;
-    margin: 0px auto;
     box-sizing: border-box;
+    width: 100%;
+    font-size: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top-header {
     display: flex;
-    justify-content: center; 
-    align-items: center;  
-    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    background-color: #5b9db5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #prompt{
@@ -28,8 +70,8 @@ body{
 }
 
 .title {
-    color: black;
-    text-align: center;
+    color: white;
+    text-align: left;
     font-size: 50px;
     margin: 0px;
 }
@@ -41,7 +83,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;   
-    box-sizing: 0px;
+    box-sizing: border-box;
 }
 
 #title {
@@ -97,4 +139,32 @@ body.seasonal-theme textarea {
 
 body.seasonal-theme #title {
     color: white;
+}
+
+body.seasonal-theme .title {
+    color: white;
+}
+
+body.seasonal-theme .mainTitle {
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .card {
+        width: 100%;
+    }
 }

@@ -1,14 +1,21 @@
-// creates the input box 
-// const skillInput = document.getElementById("skill-input");
-// const addSkillButton = document.getElementById("add-skill");
-// const skillsList = document.getElementById("skills-list");
+const correctName = "Jack";
+const correctUsername = "J";
+const correctPassword = "dog";
 
-// addSkillButton.addEventListener("click", function (){
-//     const skillName = skillInput.value;
+const createAccount = document.querySelector(".class");
 
-//     const newSkill = document.createElement("li");
-//     newSkill.textContent = skillName;
-//     skillsList.appendChild(newSkill);
+createAccount.addEventListener("submit", function(event){
+    event.preventDefault();
 
-//     skillInput.value = "";
-// });
+    const name = document.getElementById("name").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    if(
+        username === correctUsername && password === correctPassword && name === correctName
+    ){
+        window.location.href = "login.html"
+    } else{
+        document.getElementById("error").textContent = "invalid username or password";
+        
+    }});

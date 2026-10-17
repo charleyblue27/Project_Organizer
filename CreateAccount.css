@@ -1,5 +1,9 @@
+body{
+    margin: 0px;
+}
+
 .card {
-    background-color: rgba(211, 144, 20, 0.753);
+    background-color: lightblue;
     padding: 20px;
     margin: 0px auto;
     box-sizing: border-box;
@@ -9,35 +13,98 @@
     width: auto;
 }
 
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+#seasonal {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
 .title {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 50px;
     margin: 0px;
 }
 
 main {
-    color: white;
+    color: black;
     font-size: 20px;
-    background-color: rgb(34, 2, 34);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;   
     box-sizing: 0px;
 }
 
-body{
-    background-color: rgb(34, 2, 34);
-    margin: 0px;
-}
-
 #title {
 
     margin: 0;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 0px;
+}
+
+.class a{
+    padding: 100px;
+    color: black;
+}
+
+textarea{
+    width: 700px;
+    max-width: 600px;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+body.seasonal-theme {
+    background-color: rgb(34, 2, 34);
+    color: white;
+}
+
+body.seasonal-theme .card {
+    background-color: rgba(211, 144, 20, 0.753);
+}
+
+body.seasonal-theme main {
+    background-color: rgb(34, 2, 34);
+    color: white;
+}
+
+body.seasonal-theme #title {
+    color: white;
+}
+
+body.seasonal-theme .title {
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .card {
+        width: 100%;
+    }
 }

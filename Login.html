@@ -12,27 +12,29 @@
     <header class="card">
         <h1 class="title">Login Page</h1>
     </header>
+    <div class="button-container">
+            <button id="seasonal">Seasonal</button>
+    </div>
     <main>
-        <section>
-            <button id="Seasonal-on">Seasonal</button>;
-        </section>
             
         <section>
             <form class="class">
                 <h3>Username</h3>
-                <input type="Username" placeholder="Your Username">
+                <input type="text" id="username" placeholder="Your Username" required>
                 <br><br>
                 <h3>Password</h3>
-                <input type="Password" placeholder="Your password">
+                <input type="text" id="password" placeholder="Your password" required>
+                <p id="error" style="color: red"></p>
                 <br><br>
                 <button type="submit">Submit</button>
                 <br></br>
                 <a class="class a" href="CreateAccount.html">Create a new account</a>
+            
             </form>
-
         </section>
     </main>
 
-    <script src="Login.js"></script>
+    <script src="SeasonalButton.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
