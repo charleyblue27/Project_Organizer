@@ -10,16 +10,22 @@
 </head>
 <body>
     <header class="card">
-        <h1 class="title">Project Organizer</h1>
-        <br></br>
-        <nav class="navbar">
+    <div class="top-header">
+    <h1 class="mainTitle">Project Organizer</h1>
+
+    <a href="login.html" class="user-info">
+        <div class="avatar">C</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
         <ul class="nav-links">
-            <a href="home.html">Home</a>
             <a href="storyboard.html">Storyboard</a>
             <a href="CollegeProjects.html">College Projects</a>
+            <a href="savedProjects.html">Saved Projects</a>
         </ul>
     </nav>
-    </header>
+</header>
     <div class="button-container">
         <button id="seasonal">Seasonal</button>
     </div>
@@ -35,7 +41,6 @@
                 <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
                 <br></br>
                 <button type="submit">Upload</button>
-            </form>
             </div>
                 <br><br>
                 <h3>Insert text here:</h3>
@@ -46,7 +51,6 @@
             </form>
         </section>
     </main>
-
     <script src="SeasonalButton.js"></script>
 </body>
 </html>
