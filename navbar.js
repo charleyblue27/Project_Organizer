@@ -5,7 +5,7 @@ pageHead.classList.add("card");
 //create hero
 const hero = document.createElement("div");
 hero.classList.add("top-header");
-hero.innerHTML = `<h1 class="main-title">Project Organizer</h1>`
+hero.innerHTML = `<h1 class="mainTitle">Project Organizer</h1>`
 
 // create the account button
 const userInfo = document.createElement("div");
