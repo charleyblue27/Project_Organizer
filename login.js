@@ -1,4 +1,4 @@
-const correctUsername = "cmadlock";
+const correctUsername = "c";
 const correctPassword = "project";
 
 const loginform = document.querySelector(".class");
