@@ -2,7 +2,7 @@ const correctName = "Jack";
 const correctUsername = "J";
 const correctPassword = "dog";
 
-const createAccount = document.querySelector(".class");
+const createAccount = document.querySelector("form.class");
 
 createAccount.addEventListener("submit", function(event){
     event.preventDefault();
