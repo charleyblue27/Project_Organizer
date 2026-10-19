@@ -47,10 +47,10 @@ pageHead.classList.add("card");
 document.body.appendChild(pageHead);
 
 // // add the CSS
-// const navCSS = document.createElement("link");
-// navCSS.setAttribute("rel", "stylesheet");
-// navCSS.setAttribute("href", "navbar.css");
-// document.head.appendChild(navCSS);
+const navCSS = document.createElement("link");
+navCSS.setAttribute("rel", "stylesheet");
+navCSS.setAttribute("href", "navbar.css");
+document.head.appendChild(navCSS);
 
 // cleanup (remove this file)
 // NOTE: Make sure this file has the navbar class when you add it to a page, otehrwise it won't remove it.
