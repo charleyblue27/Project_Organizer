@@ -2,19 +2,6 @@ body{
     margin: 0px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: var(--primary);
-    color: black;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: var(--shadow);
-}
-
-
 .main-title {
     color: black;
     text-align: center;
@@ -28,6 +15,11 @@ body{
     box-sizing: border-box;
     width: 100%;
     font-size: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .top-header {
@@ -62,13 +54,6 @@ body{
     font-weight: bold;
 }
 
-.nav-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-
 .button-container {
     display: flex;
     justify-content: flex-end;
@@ -81,8 +66,8 @@ body{
 }
 
 .title {
-    color: black;
-    text-align: center;
+    color: white;
+    text-align: left;
     font-size: 50px;
     margin: 0px;
 }
@@ -94,7 +79,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;   
-    box-sizing: 0px;
+    box-sizing: border-box;
 }
 
 #title {
@@ -102,7 +87,7 @@ main {
     margin: 0;
     color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 0px;
@@ -139,6 +124,10 @@ body.seasonal-theme textarea {
 }
 
 body.seasonal-theme #title {
+    color: white;
+}
+
+body.seasonal-theme .title {
     color: white;
 }
 
