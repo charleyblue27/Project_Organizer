@@ -14,7 +14,7 @@ createAccount.addEventListener("submit", function(event){
     if(
         username === correctUsername && password === correctPassword && name === correctName
     ){
-        window.location.href = "login.html"
+        window.location.href = "Login.html"
     } else{
         document.getElementById("error").textContent = "invalid username or password";
         
